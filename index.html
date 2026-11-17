@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#030014">
+<meta name="color-scheme" content="dark">
+<title>Portfólio · Kauan Henrique</title>
+<meta name="description" content="Portfólio de Kauan Henrique: sites e landing pages modernos, rápidos e acessíveis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="is-welcome">
+
+<!-- Tela de boas-vindas -->
+<div class="welcome" aria-hidden="true">
+  <div class="welcome-icons">
+    <span class="w-icon" style="--d:.1s"><i data-lucide="code"></i></span>
+    <span class="w-icon" style="--d:.25s"><i data-lucide="user"></i></span>
+    <span class="w-icon" style="--d:.4s"><i data-lucide="github"></i></span>
+  </div>
+  <h2 class="welcome-title">
+    <span class="w-word" style="--d:.3s">Bem-vindo</span>
+    <span class="w-word" style="--d:.45s">ao</span>
+    <span class="w-word" style="--d:.6s">meu</span>
+    <br>
+    <span class="w-word grad" style="--d:.85s">portfólio</span>
+    <span class="w-word grad" style="--d:1s">digital</span>
+  </h2>
+  <p class="welcome-url"><i data-lucide="globe"></i><span class="w-type"></span></p>
+</div>
+
+<div class="glow" aria-hidden="true"><span class="g1"></span><span class="g2"></span><span class="g3"></span></div>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="logo grad" href="#inicio" data-bind="marca"></a>
+    <nav class="links" aria-label="Seções">
+      <a href="#inicio" data-nav="inicio">Início</a>
+      <a href="#sobre" data-nav="sobre">Sobre</a>
+      <a href="#portfolio" data-nav="portfolio">Portfólio</a>
+      <a href="#contato" data-nav="contato">Contato</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu"><i data-lucide="menu"></i></button>
+  </div>
+  <nav class="mobile-menu" id="mobile-menu" hidden aria-label="Seções">
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<main>
+  <!-- Início -->
+  <section class="hero container" id="inicio" data-section>
+    <div class="hero-text">
+      <span class="badge" data-anim="fade-up"><i data-lucide="sparkles"></i><span data-bind="selo"></span></span>
+      <h1 data-anim="fade-up" style="--d:.1s"><span data-bind="titulo1"></span><span class="grad" data-bind="titulo2"></span></h1>
+      <p class="typed" data-anim="fade-up" style="--d:.2s"><span class="type"></span><span class="cursor"></span></p>
+      <p class="hero-desc" data-anim="fade-up" style="--d:.3s" data-bind="resumo"></p>
+      <div class="chips" data-anim="fade-up" style="--d:.4s"></div>
+      <div class="hero-btns" data-anim="fade-up" style="--d:.5s">
+        <a class="btn-dark" href="#portfolio">Projetos <i data-lucide="external-link"></i></a>
+        <a class="btn-dark" href="#contato">Contato <i data-lucide="mail"></i></a>
+      </div>
+      <div class="socials" data-anim="fade-up" style="--d:.6s"></div>
+    </div>
+  </section>
+
+  <!-- Sobre mim -->
+  <section class="section container" id="sobre" data-section>
+    <div class="section-head" data-anim="fade-up">
+      <h2 class="grad">Sobre mim</h2>
+      <p><i data-lucide="sparkles"></i>Transformando ideias em experiências digitais<i data-lucide="sparkles"></i></p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <h3 class="hi grad" data-anim="fade-right">Olá, eu sou</h3>
+        <h3 class="name" data-anim="fade-right" style="--d:.1s" data-bind="nome"></h3>
+        <p class="bio" data-anim="fade-right" style="--d:.2s" data-bind="bio"></p>
+        <div class="about-btns" data-anim="fade-up" style="--d:.3s">
+          <a class="btn-grad" id="cv" href="#"><i data-lucide="file-text"></i>Download CV</a>
+          <a class="btn-outline" href="#portfolio"><i data-lucide="code"></i>Ver Projetos</a>
+        </div>
+      </div>
+      <div class="about-photo" data-anim="fade-left">
+        <div class="ring"><img src="assets/perfil.jpg" alt="Foto de Kauan Henrique" width="1000" height="1000"></div>
+      </div>
+    </div>
+
+    <div class="stats">
+      <a class="stat card" href="#portfolio" data-tab="projetos" data-anim="fade-up">
+        <div class="stat-top"><span class="ic"><i data-lucide="code"></i></span><strong data-stat="projetos">0</strong></div>
+        <span class="stat-label">Projetos concluídos</span>
+        <span class="stat-sub">Soluções digitais entregues <i data-lucide="arrow-up-right"></i></span>
+      </a>
+      <a class="stat card" href="#portfolio" data-tab="certificados" data-anim="fade-up" style="--d:.1s">
+        <div class="stat-top"><span class="ic"><i data-lucide="award"></i></span><strong data-stat="certificados">0</strong></div>
+        <span class="stat-label">Certificados</span>
+        <span class="stat-sub">Competências reconhecidas <i data-lucide="arrow-up-right"></i></span>
+      </a>
+      <div class="stat card" data-anim="fade-up" style="--d:.2s">
+        <div class="stat-top"><span class="ic"><i data-lucide="globe"></i></span><strong data-stat="anos">0</strong></div>
+        <span class="stat-label">Anos de experiência</span>
+        <span class="stat-sub">Aprendizagem contínua <i data-lucide="arrow-up-right"></i></span>
+      </div>
+    </div>
+
+    <div class="minis">
+      <div class="mini card" data-anim="fade-up"><span class="ic"><i data-lucide="user-check"></i></span><span class="stat-label">Objetivo</span><span class="stat-sub"><span data-bind="objetivo"></span><i data-lucide="arrow-up-right"></i></span></div>
+      <div class="mini card" data-anim="fade-up" style="--d:.08s"><span class="ic"><i data-lucide="code"></i></span><span class="stat-label">Experiência</span><span class="stat-sub"><span data-bind="experiencia"></span><i data-lucide="arrow-up-right"></i></span></div>
+      <div class="mini card" data-anim="fade-up" style="--d:.16s"><span class="ic"><i data-lucide="award"></i></span><span class="stat-label">Competências</span><span class="stat-sub"><span data-bind="competencias"></span><i data-lucide="arrow-up-right"></i></span></div>
+      <div class="mini card" data-anim="fade-up" style="--d:.24s"><span class="ic"><i data-lucide="globe"></i></span><span class="stat-label">Disponibilidade</span><span class="stat-sub"><span data-bind="disponibilidade"></span><i data-lucide="arrow-up-right"></i></span></div>
+    </div>
+  </section>
+
+  <!-- Portfólio -->
+  <section class="section container" id="portfolio" data-section>
+    <div class="section-head" data-anim="fade-up">
+      <h2 class="grad">Vitrine de Portfólio</h2>
+      <p class="head-sub">Explore projetos, certificações e stacks que refletem a minha evolução contínua em desenvolvimento e design digital.</p>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Vitrine" data-anim="fade-up">
+      <button role="tab" id="tab-projetos" aria-controls="p-projetos" aria-selected="true"><i data-lucide="code"></i>Projetos</button>
+      <button role="tab" id="tab-certificados" aria-controls="p-certificados" aria-selected="false" tabindex="-1"><i data-lucide="award"></i>Certificados</button>
+      <button role="tab" id="tab-stack" aria-controls="p-stack" aria-selected="false" tabindex="-1"><i data-lucide="boxes"></i>Stack Tecnológica</button>
+    </div>
+
+    <div class="panel" id="p-projetos" role="tabpanel" aria-labelledby="tab-projetos"><div class="projects"></div></div>
+    <div class="panel" id="p-certificados" role="tabpanel" aria-labelledby="tab-certificados" hidden><div class="certs"></div></div>
+    <div class="panel" id="p-stack" role="tabpanel" aria-labelledby="tab-stack" hidden><div class="stack"></div></div>
+  </section>
+
+  <!-- Contato -->
+  <section class="section container" id="contato" data-section>
+    <div class="section-head" data-anim="fade-up">
+      <h2 class="grad">Contate-me</h2>
+      <p class="head-sub">Tem um projeto ou dúvida? Me escreva e eu respondo o mais rápido possível.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-left">
+        <div class="card talk" data-anim="fade-right">
+          <div class="talk-head">
+            <h3 class="grad">Vamos conversar</h3>
+            <button class="share" type="button" aria-label="Compartilhar"><i data-lucide="share-2"></i></button>
+          </div>
+          <p class="talk-text" data-bind="contatoTexto"></p>
+          <ul class="info"></ul>
+          <form class="msg-form" novalidate>
+            <label class="input-ic"><i data-lucide="user"></i><input name="nome" type="text" placeholder="O seu nome" autocomplete="name" maxlength="80" aria-label="O seu nome"></label>
+            <label class="input-ic"><i data-lucide="mail"></i><input name="email" type="email" placeholder="O seu email" autocomplete="email" maxlength="120" aria-label="O seu email"></label>
+            <label class="input-ic input-area"><i data-lucide="message-square"></i><textarea name="mensagem" rows="5" placeholder="A sua mensagem" maxlength="1000" aria-label="A sua mensagem"></textarea></label>
+            <button class="btn-grad btn-full" type="submit"><i data-lucide="send"></i>Enviar mensagem</button>
+          </form>
+        </div>
+
+        <div class="card reach" data-anim="fade-right" style="--d:.1s">
+          <h4><span class="bar"></span>Fale comigo</h4>
+          <div class="reach-list"></div>
+        </div>
+      </div>
+
+      <div class="card comments" data-anim="fade-left">
+        <div class="comments-head"><span class="ic-sq"><i data-lucide="message-circle"></i></span><h3>Comentários <span class="count">(0)</span></h3></div>
+        <form class="comment-form" novalidate>
+          <label class="field"><span>Nome <b>*</b></span><input name="nome" type="text" placeholder="Digite o seu nome" maxlength="60"></label>
+          <label class="field"><span>Mensagem <b>*</b></span><textarea name="mensagem" rows="4" placeholder="Escreva a sua mensagem aqui..." maxlength="500"></textarea></label>
+          <div class="field">
+            <span>Foto de Perfil <em>(opcional)</em></span>
+            <label class="upload">
+              <input name="foto" type="file" accept="image/*">
+              <span class="upload-btn"><i data-lucide="image-plus"></i><span class="upload-name">Escolher Foto de Perfil</span></span>
+              <span class="upload-hint">Tamanho máximo: 5MB</span>
+            </label>
+          </div>
+          <button class="btn-grad btn-full" type="submit"><i data-lucide="send"></i>Publicar Comentário</button>
+        </form>
+        <ul class="comment-list"></ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">© <span data-year></span> <span data-bind="marca"></span>™. Todos os direitos reservados.</footer>
+
+<dialog class="modal" aria-label="Detalhes">
+  <button class="modal-close" type="button" aria-label="Fechar"><i data-lucide="x"></i></button>
+  <div class="modal-body"></div>
+</dialog>
+
+<div class="toast" role="status" aria-live="polite"></div>
+
+<script src="https://unpkg.com/lucide@0.454.0/dist/umd/lucide.min.js"></script>
+<script src="config.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
