@@ -4,7 +4,7 @@
 // ============================================================
 window.PORTFOLIO = {
   marca: 'Kauan',                       // logo no topo e rodapé
-  site: 'kauan-portfolio.vercel.app',   // [revisar] endereço digitado na tela de boas-vindas
+  site: 'kauan-portfolio-kappa.vercel.app', // endereço digitado na tela de boas-vindas
   nome: 'Kauan Henrique',               // [revisar]
 
   // Início
